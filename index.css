@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    @media only screen and(max-width:455px){
+        background-color: gray;
+    }
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/10/one-piece-roronoa-zoro-swords-black-wallpaper-scaled.jpg);
+    background-size: contain;
+}
+
+.calculator {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.calculator input {
+    width: 80%;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+}
+
+.calculator button {
+    padding: 10px 20px;
+    margin: 8px ;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add { background-color: #4CAF50; color: white; }
+#sub { background-color: #f44336; color: white; }
+#multi { background-color: #2196F3; color: white; }
+#divi { background-color: #FF9800; color: white; }
+#clear { background-color: #9E9E9E; color: white; }
+
+/* .calculator button:hover {
+    opacity: 3;
+} */
+
+#ans {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #ded8d8;
+    font-weight: bold;
+}
